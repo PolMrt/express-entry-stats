@@ -1,0 +1,74 @@
+[
+  {
+    "id": 278,
+    "date": "2023-12-21T14:15:42Z",
+    "nb_invitations": 400,
+    "min_crs": 386,
+    "tie_breaking_rule": "2023-07-06T05:44:14Z",
+    "category": "Agriculture and agri-food occupations (2023-1)"
+  },
+  {
+    "id": 277,
+    "date": "2023-12-20T15:55:23Z",
+    "nb_invitations": 670,
+    "min_crs": 435,
+    "tie_breaking_rule": "2023-08-30T17:30:21Z",
+    "category": "Transport occupations (2023-1)"
+  },
+  {
+    "id": 276,
+    "date": "2023-12-19T14:44:00Z",
+    "nb_invitations": 1000,
+    "min_crs": 425,
+    "tie_breaking_rule": "2023-11-04T11:16:58Z",
+    "category": "Trade occupations (2023-1)"
+  },
+  {
+    "id": 275,
+    "date": "2023-12-18T16:12:22Z",
+    "nb_invitations": 1325,
+    "min_crs": 542,
+    "tie_breaking_rule": "2023-11-06T14:40:23Z",
+    "category": "General"
+  },
+  {
+    "id": 274,
+    "date": "2023-12-08T03:02:52Z",
+    "nb_invitations": 5900,
+    "min_crs": 481,
+    "tie_breaking_rule": "2023-09-07T09:24:49Z",
+    "category": "STEM occupations (2023-1)"
+  },
+  {
+    "id": 273,
+    "date": "2023-12-07T16:35:25Z",
+    "nb_invitations": 1000,
+    "min_crs": 470,
+    "tie_breaking_rule": "2023-10-03T04:45:27Z",
+    "category": "French language proficiency (2023-1)"
+  },
+  {
+    "id": 272,
+    "date": "2023-12-06T16:27:26Z",
+    "nb_invitations": 4750,
+    "min_crs": 561,
+    "tie_breaking_rule": "2023-11-08T06:00:13Z",
+    "category": "General"
+  },
+  {
+    "id": 271,
+    "date": "2023-10-26T13:28:39Z",
+    "nb_invitations": 3600,
+    "min_crs": 431,
+    "tie_breaking_rule": "2023-05-24T19:47:51Z",
+    "category": "Healthcare occupations (2023-1)"
+  },
+  {
+    "id": 270,
+    "date": "2023-10-25T15:48:39Z",
+    "nb_invitations": 300,
+    "min_crs": 486,
+    "tie_breaking_rule": "2023-09-30T04:22:17Z",
+    "category": "French language proficiency (2023-1)"
+  }
+]
