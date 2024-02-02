@@ -57,4 +57,28 @@ describe("DataController", () => {
     expect(data).toBeDefined();
     expect(data.length).toBeGreaterThan(0);
   });
+
+  test("Singleton load the same year only once", async () => {
+    const dataController = DataController.getInstance();
+    await dataController.loadFiles();
+    await dataController.loadFiles();
+
+    const years = dataController.getYears();
+    const year = years[0];
+    const otherSameYears = years.filter((y) => y === year);
+
+    expect(otherSameYears.length).toBe(1);
+  });
+
+  test("Singleton load the same file only once", async () => {
+    const dataController = DataController.getInstance();
+    await dataController.loadFiles();
+    await dataController.loadFiles();
+
+    const data = dataController.getData();
+    const oneDp = data[0];
+    const otherDpsWithSameId = data.filter((dp) => dp.id === oneDp.id);
+
+    expect(otherDpsWithSameId.length).toBe(1);
+  });
 });

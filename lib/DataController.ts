@@ -46,6 +46,8 @@ export class DataController {
     for (const file of data) {
       // Add year to tracked years
       const year = parseInt(file.split(".")[0]);
+
+      if (this.years.includes(year)) continue;
       this.years.push(year);
 
       // Add file content and map it to DataPoint (file is json)
