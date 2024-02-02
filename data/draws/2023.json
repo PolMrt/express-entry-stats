@@ -70,5 +70,269 @@
     "min_crs": 486,
     "tie_breaking_rule": "2023-09-30T04:22:17Z",
     "category": "French language proficiency (2023-1)"
+  },
+  {
+    "id": 269,
+    "date": "2023-10-24T14:23:38Z",
+    "nb_invitations": 1548,
+    "min_crs": 776,
+    "tie_breaking_rule": "2023-07-07T07:28:57Z",
+    "category": "Provincial Nominee Program"
+  },
+  {
+    "id": 268,
+    "date": "2023-10-10T15:49:55Z",
+    "nb_invitations": 3725,
+    "min_crs": 500,
+    "tie_breaking_rule": "2023-10-02T15:25:30Z",
+    "category": "No Program Specified"
+  },
+  {
+    "id": 267,
+    "date": "2023-09-28T16:45:09Z",
+    "nb_invitations": 600,
+    "min_crs": 354,
+    "tie_breaking_rule": "2023-06-12T10:23:21Z",
+    "category": "Agriculture and agri-food occupations (2023-1)"
+  },
+  {
+    "id": 266,
+    "date": "2023-09-27T14:17:04Z",
+    "nb_invitations": 500,
+    "min_crs": 472,
+    "tie_breaking_rule": "2023-08-16T09:00:14Z",
+    "category": "French language proficiency (2023-1)"
+  },
+  {
+    "id": 265,
+    "date": "2023-09-26T13:38:55Z",
+    "nb_invitations": 3000,
+    "min_crs": 504,
+    "tie_breaking_rule": "2023-09-11T20:24:18Z",
+    "category": "No Program Specified"
+  },
+  {
+    "id": 264,
+    "date": "2023-09-20T14:04:14Z",
+    "nb_invitations": 1000,
+    "min_crs": 435,
+    "tie_breaking_rule": "2023-06-17T06:44:01Z",
+    "category": "Transport occupations (2023-1)"
+  },
+  {
+    "id": 263,
+    "date": "2023-09-19T15:04:11Z",
+    "nb_invitations": 3200,
+    "min_crs": 531,
+    "tie_breaking_rule": "2023-09-12T12:16:31Z",
+    "category": "No Program Specified"
+  },
+  {
+    "id": 262,
+    "date": "2023-08-15T14:23:51Z",
+    "nb_invitations": 4300,
+    "min_crs": 496,
+    "tie_breaking_rule": "2023-08-01T12:59:52Z",
+    "category": "No Program Specified"
+  },
+  {
+    "id": 261,
+    "date": "2023-08-03T13:24:52Z",
+    "nb_invitations": 1500,
+    "min_crs": 388,
+    "tie_breaking_rule": "2023-06-07T07:03:08Z",
+    "category": "Trade occupations (2023-1)"
+  },
+  {
+    "id": 260,
+    "date": "2023-08-02T13:50:04Z",
+    "nb_invitations": 800,
+    "min_crs": 435,
+    "tie_breaking_rule": "2023-07-31T09:57:30Z",
+    "category": "French language proficiency (2023-1)"
+  },
+  {
+    "id": 259,
+    "date": "2023-08-01T13:25:02Z",
+    "nb_invitations": 2000,
+    "min_crs": 517,
+    "tie_breaking_rule": "2023-06-30T11:45:05Z",
+    "category": "No Program Specified"
+  },
+  {
+    "id": 258,
+    "date": "2023-07-12T13:36:01Z",
+    "nb_invitations": 3800,
+    "min_crs": 375,
+    "tie_breaking_rule": "2023-06-15T23:49:05Z",
+    "category": "French language proficiency (2023-1)"
+  },
+  {
+    "id": 257,
+    "date": "2023-07-11T17:53:49Z",
+    "nb_invitations": 800,
+    "min_crs": 505,
+    "tie_breaking_rule": "2022-10-01T06:13:05Z",
+    "category": "No Program Specified"
+  },
+  {
+    "id": 256,
+    "date": "2023-07-07T13:11:16Z",
+    "nb_invitations": 2300,
+    "min_crs": 439,
+    "tie_breaking_rule": "2023-01-20T17:18:32Z",
+    "category": "French language proficiency (2023-1)"
+  },
+  {
+    "id": 255,
+    "date": "2023-07-06T14:25:05Z",
+    "nb_invitations": 1500,
+    "min_crs": 463,
+    "tie_breaking_rule": "2023-06-19T06:41:05Z",
+    "category": "Healthcare occupations (2023-1)"
+  },
+  {
+    "id": 254,
+    "date": "2023-07-05T13:38:22Z",
+    "nb_invitations": 500,
+    "min_crs": 486,
+    "tie_breaking_rule": "2022-11-23T00:01:29Z",
+    "category": "STEM occupations (2023-1)"
+  },
+  {
+    "id": 253,
+    "date": "2023-07-04T14:23:38Z",
+    "nb_invitations": 700,
+    "min_crs": 511,
+    "tie_breaking_rule": "2023-07-01T09:31:32Z",
+    "category": "No Program Specified"
+  },
+  {
+    "id": 252,
+    "date": "2023-06-28T14:04:34Z",
+    "nb_invitations": 500,
+    "min_crs": 476,
+    "tie_breaking_rule": "2022-11-12T12:47:27Z",
+    "category": "Healthcare occupations (2023-1)"
+  },
+  {
+    "id": 251,
+    "date": "2023-06-27T15:37:46Z",
+    "nb_invitations": 4300,
+    "min_crs": 486,
+    "tie_breaking_rule": "2023-06-21T00:57:04Z",
+    "category": "No Program Specified"
+  },
+  {
+    "id": 250,
+    "date": "2023-06-08T12:08:58Z",
+    "nb_invitations": 4800,
+    "min_crs": 486,
+    "tie_breaking_rule": "2023-05-19T14:04:00Z",
+    "category": "No Program Specified"
+  },
+  {
+    "id": 249,
+    "date": "2023-05-24T14:23:06Z",
+    "nb_invitations": 4800,
+    "min_crs": 488,
+    "tie_breaking_rule": "2022-12-26T01:12:48Z",
+    "category": "No Program Specified"
+  },
+  {
+    "id": 248,
+    "date": "2023-05-10T14:06:47Z",
+    "nb_invitations": 589,
+    "min_crs": 691,
+    "tie_breaking_rule": "2023-03-08T16:42:17Z",
+    "category": "Provincial Nominee Program"
+  },
+  {
+    "id": 247,
+    "date": "2023-04-26T18:10:04Z",
+    "nb_invitations": 3500,
+    "min_crs": 483,
+    "tie_breaking_rule": "2023-04-22T19:46:58Z",
+    "category": "No Program Specified"
+  },
+  {
+    "id": 246,
+    "date": "2023-04-12T14:12:15Z",
+    "nb_invitations": 3500,
+    "min_crs": 486,
+    "tie_breaking_rule": "2022-07-19T11:05:24Z",
+    "category": "No Program Specified"
+  },
+  {
+    "id": 245,
+    "date": "2023-03-29T13:44:01Z",
+    "nb_invitations": 7000,
+    "min_crs": 481,
+    "tie_breaking_rule": "2023-02-14T07:35:00Z",
+    "category": "No Program Specified"
+  },
+  {
+    "id": 244,
+    "date": "2023-03-23T12:27:59Z",
+    "nb_invitations": 7000,
+    "min_crs": 484,
+    "tie_breaking_rule": "2022-05-19T06:48:41Z",
+    "category": "No Program Specified"
+  },
+  {
+    "id": 243,
+    "date": "2023-03-15T17:08:16Z",
+    "nb_invitations": 7000,
+    "min_crs": 490,
+    "tie_breaking_rule": "2023-02-16T10:33:06Z",
+    "category": "No Program Specified"
+  },
+  {
+    "id": 242,
+    "date": "2023-03-01T17:24:39Z",
+    "nb_invitations": 667,
+    "min_crs": 748,
+    "tie_breaking_rule": "2022-12-12T10:48:12Z",
+    "category": "Provincial Nominee Program"
+  },
+  {
+    "id": 241,
+    "date": "2023-02-15T16:13:27Z",
+    "nb_invitations": 699,
+    "min_crs": 791,
+    "tie_breaking_rule": "2023-02-08T18:09:01Z",
+    "category": "Provincial Nominee Program"
+  },
+  {
+    "id": 240,
+    "date": "2023-02-02T15:12:01Z",
+    "nb_invitations": 3300,
+    "min_crs": 489,
+    "tie_breaking_rule": "2022-03-29T16:09:00Z",
+    "category": "Federal Skilled Worker"
+  },
+  {
+    "id": 239,
+    "date": "2023-02-01T16:05:57Z",
+    "nb_invitations": 893,
+    "min_crs": 733,
+    "tie_breaking_rule": "2022-12-09T10:49:57Z",
+    "category": "Provincial Nominee Program"
+  },
+  {
+    "id": 238,
+    "date": "2023-01-18T16:13:57Z",
+    "nb_invitations": 5500,
+    "min_crs": 490,
+    "tie_breaking_rule": "2022-11-24T21:14:59Z",
+    "category": "No Program Specified"
+  },
+  {
+    "id": 237,
+    "date": "2023-01-11T16:14:19Z",
+    "nb_invitations": 5500,
+    "min_crs": 507,
+    "tie_breaking_rule": "2022-12-06T11:00:07Z",
+    "category": "No Program Specified"
   }
 ]
