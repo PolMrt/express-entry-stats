@@ -19,17 +19,29 @@ export type DataPoint = {
   category: string;
 };
 
+// Singleton class to load and store data
 export class DataController {
+  private static instance: DataController;
+
   private dataPath: string = "data/draws";
   private data: DataPoint[] = [];
   private years: number[] = [];
 
   // Load data from files in data
-  constructor(dataPath?: string) {
-    if (dataPath) this.dataPath = dataPath;
+  private constructor() {}
+
+  public static getInstance(): DataController {
+    if (!DataController.instance) {
+      DataController.instance = new DataController();
+    }
+    return DataController.instance;
   }
 
-  async loadFiles() {
+  public static resetInstance() {
+    DataController.instance = new DataController();
+  }
+
+  public async loadFiles() {
     const data = await fs.readdir(this.dataPath);
     for (const file of data) {
       // Add year to tracked years
@@ -57,11 +69,11 @@ export class DataController {
     this.years.sort((a, b) => b - a);
   }
 
-  getYears(): number[] {
+  public getYears(): number[] {
     return this.years;
   }
 
-  getData(year?: number): DataPoint[] {
+  public getData(year?: number): DataPoint[] {
     if (year) {
       return this.data.filter((draw) => draw.date.year() === year);
     }
