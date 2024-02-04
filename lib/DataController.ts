@@ -81,4 +81,24 @@ export class DataController {
     }
     return this.data;
   }
+
+  public getLastData(): DataPoint {
+    const lastYear = this.years[0];
+    const lastYearData = this.getData(lastYear);
+    return lastYearData[0];
+  }
+
+  public getCategories(year?: number): string[] {
+    const data = this.getData(year);
+
+    const categories: string[] = [];
+
+    data.forEach((draw) => {
+      if (!categories.includes(draw.category)) {
+        categories.push(draw.category);
+      }
+    });
+
+    return categories;
+  }
 }

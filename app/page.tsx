@@ -1,13 +1,18 @@
 import { YearDetails } from "@/components/YearDetails";
 import { DataController } from "@/lib/DataController";
+import dayjs from "dayjs";
+import relativeTime from "dayjs/plugin/relativeTime";
+dayjs.extend(relativeTime);
 
 export default async function Home() {
   const dc = DataController.getInstance();
   await dc.loadFiles();
 
+  const lastDraw = dc.getLastData();
+
   return (
-    <main className="mx-auto max-w-2xl">
-      <div className="prose">
+    <main className="mx-auto max-w-3xl">
+      <div className="prose mx-auto">
         <h1>Express Entry statisctics</h1>
         <p>
           Express Entry is a Canadian immigration program designed to facilitate
@@ -30,7 +35,7 @@ export default async function Home() {
           around the world and addressing labor market needs.
         </p>
 
-        <h2>Last Draws Data</h2>
+        <h2>Historical Data</h2>
         <p>
           Explore the latest statistics from Canada&apos;s Express Entry draws.
           Our comprehensive dataset offers a detailed view of the program&apos;s
@@ -43,10 +48,28 @@ export default async function Home() {
           program and its impact on potential candidates.
         </p>
       </div>
-      <div className="mt-6 space-y-4">
+      <div className="not-prose mt-6 space-y-4">
         {dc.getYears().map((year) => (
           <YearDetails key={year} year={year} />
         ))}
+      </div>
+      <div className="prose mx-auto mt-8">
+        <h2>Last Draw</h2>
+        <p>
+          In the most recent Express Entry draw, which occurred just{" "}
+          {dayjs(lastDraw.date).fromNow()}, a total of{" "}
+          {lastDraw.nbInvitations.toLocaleString()} invitations to apply were
+          issued to candidates. This draw targeted applicants in the{" "}
+          {lastDraw.category} category, focusing on individuals with specific
+          skills and qualifications that align with Canada&apos;s current
+          economic needs. Notably, the minimum Comprehensive Ranking System
+          (CRS) score required for this draw was {lastDraw.minCrs}. This figure
+          is a key indicator of the competitiveness and standards set by the
+          Canadian immigration authorities for the selection of skilled workers
+          under the Express Entry program. As always, the fluctuating CRS score
+          and the number of invitations reflect the evolving landscape of
+          Canadian immigration and labor market demands.
+        </p>
       </div>
 
       <p className="mt-24 text-xs text-gray-500">

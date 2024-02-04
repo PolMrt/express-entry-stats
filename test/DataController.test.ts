@@ -81,4 +81,22 @@ describe("DataController", () => {
 
     expect(otherDpsWithSameId.length).toBe(1);
   });
+
+  test("Should return some categories", async () => {
+    const dataController = DataController.getInstance();
+    await dataController.loadFiles();
+
+    const categories = dataController.getCategories();
+    expect(categories).toBeDefined();
+    expect(categories.length).toBeGreaterThan(0);
+  });
+
+  test("Should return some categories for a specific year", async () => {
+    const dataController = DataController.getInstance();
+    await dataController.loadFiles();
+
+    const categories = dataController.getCategories(2024);
+    expect(categories).toBeDefined();
+    expect(categories.length).toBeGreaterThan(0);
+  });
 });
