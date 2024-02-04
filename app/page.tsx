@@ -53,24 +53,26 @@ export default async function Home() {
           <YearDetails key={year} year={year} />
         ))}
       </div>
-      <div className="prose mx-auto mt-8">
-        <h2>Last Draw</h2>
-        <p>
-          In the most recent Express Entry draw, which occurred just{" "}
-          {dayjs(lastDraw.date).fromNow()}, a total of{" "}
-          {lastDraw.nbInvitations.toLocaleString()} invitations to apply were
-          issued to candidates. This draw targeted applicants in the{" "}
-          {lastDraw.category} category, focusing on individuals with specific
-          skills and qualifications that align with Canada&apos;s current
-          economic needs. Notably, the minimum Comprehensive Ranking System
-          (CRS) score required for this draw was {lastDraw.minCrs}. This figure
-          is a key indicator of the competitiveness and standards set by the
-          Canadian immigration authorities for the selection of skilled workers
-          under the Express Entry program. As always, the fluctuating CRS score
-          and the number of invitations reflect the evolving landscape of
-          Canadian immigration and labor market demands.
-        </p>
-      </div>
+      {lastDraw ? (
+        <div className="prose mx-auto mt-8">
+          <h2>Last Draw</h2>
+          <p>
+            In the most recent Express Entry draw, which occurred just{" "}
+            {dayjs(lastDraw.date).fromNow()}, a total of{" "}
+            {lastDraw.nbInvitations.toLocaleString()} invitations to apply were
+            issued to candidates. This draw targeted applicants in the{" "}
+            {lastDraw.category} category, focusing on individuals with specific
+            skills and qualifications that align with Canada&apos;s current
+            economic needs. Notably, the minimum Comprehensive Ranking System
+            (CRS) score required for this draw was {lastDraw.minCrs}. This
+            figure is a key indicator of the competitiveness and standards set
+            by the Canadian immigration authorities for the selection of skilled
+            workers under the Express Entry program. As always, the fluctuating
+            CRS score and the number of invitations reflect the evolving
+            landscape of Canadian immigration and labor market demands.
+          </p>
+        </div>
+      ) : null}
 
       <p className="mt-24 text-xs text-gray-500">
         Please note that the information provided on this website is for general
